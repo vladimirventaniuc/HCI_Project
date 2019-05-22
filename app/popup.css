@@ -1,0 +1,71 @@
+.red{
+	color:blue;
+}
+body{
+	background-color: #32796D;
+	width:680px;
+	height:30px;
+}
+.icon{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.icon-space{
+	margin-left: 12px;
+}
+
+.icon-space2{
+	margin-left: 3px;
+	margin-right: 4px;
+}
+
+.percentage-input{
+	/*position: relative;
+	top:1px;*/
+	position: relative;
+	top:-10px;
+	height: 80%;
+	text-align: center;
+	
+}
+.audio-icon{
+	float: left; 
+	width: 150px; 
+	background-color:red;
+	height:100%;
+}
+.font-size{
+	float: left; 
+	width: 150px; 
+	background-color:blue;
+	height:100%;
+}
+.change-color{
+	float: left; 
+	width: 380px; 
+	background-color:yellow;
+	height:100%;
+}
+.change-color-text{
+	float: left; 
+	width: 220px; 
+	background-color:green;
+	height:100%;
+}
+.change-color-text2{
+	float: left; 
+	width: 160px; 
+	background-color:blue;
+	height:100%;
+}
+.change-color-inner{
+	float: left; 
+	/*background-color: cyan;
+	width: 112px;*/
+	margin-left: 25px;
+}
+.text-font-size{
+	font-size: 20px;
+}
