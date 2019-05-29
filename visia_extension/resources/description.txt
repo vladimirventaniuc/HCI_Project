@@ -1,0 +1,7 @@
+Icon descriptions
+
+Play - When we click on this icon and we have selected a portion of a text, selected text will be read using Responsive Voice API.
+Stop - If a text is currently reading or on pause, the reading of the text will be stoped and in the moment we will press again on the play icon, the text will be read from the beggining.
+Pause - Reading of the text is paused. When we click again on the play icon the text will be read from where it stops.
+Zoom in - The content of the page will be zoomed in.
+Zoom out - The content of the page will be zoomed out.

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>GTmetrix Analyzer</title>
+     <!-- <script src="content.js"></script> -->
+     <script src="https://code.responsivevoice.org/responsivevoice.js?key=dLWwbxCR"></script>
+    <script src="popup.js"></script>
+
+    <link rel="stylesheet" href="popup.css">
+	
+	<!-- <script src="//code.responsivevoice.org/responsivevoice.js?key=dLWwbxCR"></script> -->
+  </head>
+  <body>
+ 
+	 <div class="audio-icon">
+	 	<img class="icon icon-space" src="resources/play.png" alt="Play" id="play" longdesc="./resources/description.txt">
+    	<img class="icon icon-space" src="resources/pause.ico" alt="Pause" id="pause" longdesc="./resources/description.txt">
+    	<img class="icon icon-space" src="resources/stop.png" alt="Stop" id="stop" longdesc="./resources/description.txt">
+	 </div>
+ 	<div class="font-size">
+ 		<img class="icon icon-space2" src="resources/minus.ico" alt="Zoom out" id="zoom-out" longdesc="./resources/description.txt">
+	    <input class="percentage-input" type="number" min="1" max="200" id="zoomPercentage"/>
+		<img class="icon icon-space2" src="resources/plus2.png" alt="Zoom in" id="zoom-in" longdesc="./resources/description.txt">
+ 	</div>
+ 	<div class="change-color">
+ 		<div class="change-color-text">
+ 			<div class="change-color-inner">
+	 			<div class="text-font-size">Background</div>
+	 		</div>
+	 		<div class="change-color-inner">
+	 			<input name="Color Picker" type="color" id="background-color"/>
+	 		</div>
+	 	</div>
+	 	<div class="change-color-text2">
+	 		<div class="change-color-inner">
+	 			<div class="text-font-size">Text</div>
+	 		</div>
+	 		<div class="change-color-inner">
+	 			<input name="Color Picker" type="color" id="text-color"/>
+	 		</div>
+ 		</div>
+ 	</div>
+  </body>
+</html>

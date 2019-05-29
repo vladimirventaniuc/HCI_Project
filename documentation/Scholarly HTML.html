@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://w3c.github.io/scholarly-html/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css" id="alertifyCSS">.alertify-logs>*{padding:12px 24px;color:#fff;box-shadow:0 2px 5px 0 rgba(0,0,0,.2);border-radius:1px}.alertify-logs>*,.alertify-logs>.default{background:rgba(0,0,0,.8)}.alertify-logs>.error{background:rgba(244,67,54,.8)}.alertify-logs>.success{background:rgba(76,175,80,.9)}.alertify{position:fixed;background-color:rgba(0,0,0,.3);left:0;right:0;top:0;bottom:0;width:100%;height:100%;z-index:2}.alertify.hide{opacity:0;pointer-events:none}.alertify,.alertify.show{box-sizing:border-box;transition:all .33s cubic-bezier(.25,.8,.25,1)}.alertify,.alertify *{box-sizing:border-box}.alertify .dialog{padding:12px}.alertify .alert,.alertify .dialog{width:100%;margin:0 auto;position:relative;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.alertify .alert>*,.alertify .dialog>*{width:400px;max-width:95%;margin:0 auto;text-align:center;padding:12px;background:#fff;box-shadow:0 2px 4px -1px rgba(0,0,0,.14),0 4px 5px 0 rgba(0,0,0,.098),0 1px 10px 0 rgba(0,0,0,.084)}.alertify .alert .msg,.alertify .dialog .msg{padding:12px;margin-bottom:12px;margin:0;text-align:left}.alertify .alert input:not(.form-control),.alertify .dialog input:not(.form-control){margin-bottom:15px;width:100%;font-size:100%;padding:12px}.alertify .alert input:not(.form-control):focus,.alertify .dialog input:not(.form-control):focus{outline-offset:-2px}.alertify .alert nav,.alertify .dialog nav{text-align:right}.alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button),.alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button){background:transparent;box-sizing:border-box;color:rgba(0,0,0,.87);position:relative;outline:0;border:0;display:inline-block;-webkit-align-items:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center;padding:0 6px;margin:6px 8px;line-height:36px;min-height:36px;white-space:nowrap;min-width:88px;text-align:center;text-transform:uppercase;font-size:14px;text-decoration:none;cursor:pointer;border:1px solid transparent;border-radius:2px}.alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):active,.alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):hover,.alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):active,.alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):hover{background-color:rgba(0,0,0,.05)}.alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):focus,.alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button):focus{border:1px solid rgba(0,0,0,.1)}.alertify .alert nav button.btn,.alertify .dialog nav button.btn{margin:6px 4px}.alertify-logs{position:fixed;z-index:1}.alertify-logs.bottom,.alertify-logs:not(.top){bottom:16px}.alertify-logs.left,.alertify-logs:not(.right){left:16px}.alertify-logs.left>*,.alertify-logs:not(.right)>*{float:left;-webkit-transform:translateZ(0);transform:translateZ(0);height:auto}.alertify-logs.left>.show,.alertify-logs:not(.right)>.show{left:0}.alertify-logs.left>*,.alertify-logs.left>.hide,.alertify-logs:not(.right)>*,.alertify-logs:not(.right)>.hide{left:-110%}.alertify-logs.right{right:16px}.alertify-logs.right>*{float:right;-webkit-transform:translateZ(0);transform:translateZ(0)}.alertify-logs.right>.show{right:0;opacity:1}.alertify-logs.right>*,.alertify-logs.right>.hide{right:-110%;opacity:0}.alertify-logs.top{top:0}.alertify-logs>*{box-sizing:border-box;transition:all .4s cubic-bezier(.25,.8,.25,1);position:relative;clear:both;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-perspective:1000;perspective:1000;max-height:0;margin:0;padding:0;overflow:hidden;opacity:0;pointer-events:none}.alertify-logs>.show{margin-top:12px;opacity:1;max-height:1000px;padding:12px;pointer-events:auto}</style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Scholarly HTML</title>
+    <link rel="stylesheet" href="./Scholarly HTML_files/scholarly.min.css">
+    <script src="./Scholarly HTML_files/scholarly.min.js.download"></script>
+  </head>
+  <body prefix="schema: http://schema.org">
+    <header>
+      <div class="banner">
+        <img src="./Scholarly HTML_files/scholarly-html.svg" width="227" height="50" alt="Scholarly HTML logo">
+      </div>
+      <h1>Visia</h1>
+    </header>
+
+    <div role="contentinfo">
+      <ol role="directory">
+        <li>
+          <a href="#introduction">
+           <span>1. </span>Introduction
+          </a>
+        </li>
+        <li>
+          <a href="#identity">
+            <span>2. </span>Project identity
+          </a>
+        </li>
+        <li>
+          <a href="#structure">
+            <span>3. </span>Interaction Design Patterns
+          </a>
+        </li>
+        <li>
+          <a href="#implementationDetails">
+            <span>4. </span>Implementation details
+          </a>
+        </li>
+        <li>
+          <a href="#WebAccessibilityEvaluation">
+            <span>5. </span>Web Accessibility Evaluation
+          </a>
+        </li>
+        <li>
+          <a href="#userManual">
+            <span>6. </span>User manual
+          </a>
+        </li>
+        <li>
+          <a href="#biblio-references">
+            <span>7. </span>References
+          </a>
+        </li>
+      <dl>
+        <dt>Author</dt>
+        <dd>
+          Vladimir Ventaniuc 
+        </dd>
+       
+      </dl>
+    </div>
+    <section typeof="sa:Introduction" id="introduction" role="doc-introduction">
+      <h2>Introduction</h2>
+      <p>
+          Visual impairment is a decreased ability to see to a degree that causes problems not fixable by usual means, such as glasses. Some also include those who have a decreased ability to see because they do not have access to glasses or contact lenses. The term blindness is used for complete or nearly complete vision loss. Visual impairment may cause people difficulties with normal daily activities such as driving, reading, socializing, and walking.
+      </p>
+      <p>
+        This project helps people with visual problems by providing a browser extension that allows them to better distinguish the content of a web page. Using this extension, a user have the ability to change the color scheme and rezise the content of a page and also, the ability to listen the content.
+      </p>
+    </section>
+    <section id="identity" role="doc-identity">
+      <!-- review? -->
+      <h2>Project identity</h2>
+      <p>The identity of this project, which is Visia extension, was developed by following the steps/stages of a branding process. The branding process is important before creating the application for more reasons. First of all, we need to know our clients’ needs and how we can satisfy their needs with our product or service (in this case our application). Second of all, branding helps us finding the best way to present the application to our target audience in order to make it interesting and useful, this means we will use the most suitable visual and verbal identity to communicate with them.</p>
+      <p>The branding steps in creating the application identity are the following:</p>
+      <ul>
+      <li> Research our target audience: in this case people who have vision problems (developing their profiles: demographic, social, psychographic characteristics)</li>
+      <li> Developing the conceptual identity (the values and concepts that define our application)</li>
+      <li> Developing the visual and verbal identity of the application (name, logo, slogan, tagline)</li>
+      </ul>
+      <p>The visual identity (name and logo) expresses the main concepts of the application. We can see that both the name (VISIA) and logo (the eyes) are related to the word vision which is the main problem that the application is meant to improve. The details in the logo can be also explained: the eye is not complete (a part of it is missing) in order to express the lack of good vision in people who are going to use this application. The name is simple and short in order to be more easily memorized by the target audience.</p>
+    </section>
+    <section id="designPatterns">
+      <!-- review? -->
+      <h2>Interaction design patterns</h2>
+      <h3><span>3.1 </span>Contrasting Colours for Better Readability</h3>
+      <p>Contrast is the difference between the lightest color (e.g. the background), and the darkest color (e.g. the text).</p>
+      <p>Therefore, to ensure text is readable by people with visual impairments, the <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG</a> has provided a contrast ratio guideline. They suggest that a contrast ratio of at least 4.5:1 should exist between a text and its background. This ratio drops to 3:1 for larger text (24px or 29px bold).</p>
+       <img src="./Scholarly HTML_files/contrast.png" alt="Scholarly HTML logo">
+      <p>I choose to use the "#32796D" color for background and "#DDFFEE" for text (the values from the example).</p>
+
+      <h3><span>3.2 </span>Font Selection</h3>
+       <p>When we design an application for people with visual impairments we need to avoid complicated, decorative fonts, and reserve such styles, for emphasis only. The goal is to use easily recognizable characters such as Arial, Verdana, Tahoma and Sans Serif versions of any typeface are often more legible, since the letters are simple.</p>
+       <p>Another important aspect is the font size. The larger the font, the easier it is for visually impaired people to read</p>
+       <p>Verdana font and a font size of 14 points is used for every text in the extension.</p>
+    
+       <h3><span>3.3 </span>Text Alignment</h3>
+      <p>It is recomended that the text to be left aligned rather than fully justified, center or right aligned. Fully justified text presents particular difficulties for readers with dyslexia or visual impairments.</p>
+
+      <h3><span>3.4 </span>Navigation</h3>
+      <p>The extension is build to be easy to perform any task. The main menu ( floating menu ) can be opened using "ctrl" + "Y" keys or by left clicking on the extension icon. The menu can be moved around the screen.</p>
+      <p>Another type of menu that was used is the drop-down menu that can be opened by right clicking on the extension icon. For options menu I choose to use a modal window because there are multiple options and the font size needs to be bigger in order to be easy to distinguish beetween them.</p> 
+    </section>
+    <section id="implementationDetails">
+      <h2>Implementation details</h2>
+      <p>In order to create a extension we need to define a file called "manifest.json". In this file we can set the name of the extension, add a icon, define which html document will pop when we click on the extension icon and define the option page. Also, here we define a list of javascript files which have permissions to modify and extract data from the current page.</p>
+      <p>Next step was to create the html file that will pop-up when we click on the extension icon. We have a simple page that contains icons for play, stop, resume text reading and two inputs from which we can select the colors that will be applied on the elements from DOOM.</p>
+      <p>Options page contains two main categories: settings for reading and settings for color. In this html document we imported a javascript file that store and read from the browser store the options provided by the user.</p>
+      <p>Content script is a javascript file that has permissions to modify and to extract data from the current page. This can communicate with the script, imported by the main html file, using sendMessage functionality provided by "chrome.tabs". When an action is triggered from the main html file a message is sent to content script that execute the desired action.</p>
+    </section>
+    <section id="WebAccessibilityEvaluation">
+      <h2>Web Accessibility Evaluation</h2>
+      <p>In this chapter we will present only the techniques applied for the current project.</p>
+      <h3><span>5.1 </span>Text equivalent for every non-text element</h3>
+      <p>All image elements should have a "alt" attribute defined and also a description ("longdesc" attribute).</p>
+      <p>In the extension we have only five images that are representet by the icons used in the main pop-up modal. All icons have an "alt" and a "longdesc" attribute in which we present what action is triggered when we click on them. File provided in "longdesc" is in resources folder and is called description.txt. </p>
+
+      <h3><span>5.2 </span>Information conveyed with color is also available without color</h3>
+      <p>Color brightness is determined by the following formula:
+((Red value X 299) + (Green value X 587) + (Blue value X 114)) / 1000. The brightness in our case is 250.036</p>
+<p>Color difference is determined by the following formula:
+(maximum (Red value 1, Red value 2) - minimum (Red value 1, Red value 2)) + (maximum (Green value 1, Green value 2) - minimum (Green value 1, Green value 2)) + (maximum (Blue value 1, Blue value 2) - minimum (Blue value 1, Blue value 2)). In our case the value is 434.</p>
+      <h3><span>5.3 </span>Check document for use of style sheets</h3>
+      <p>Every html file has a css file that is imported in the head component. Style embeded in html wasn't been used.</p>
+      <h3><span>5.4 </span>Check document for relative units of measure</h3>
+      <p>All the div's defined in the css files are using "%". Only for icons images "px" is used, but this is allowed for this type of elements.</p>
+      <h3><span>5.5 </span>Check document for header nesting</h3>
+      <p>Header levels must not increase by more than 1 level. We used only h1 and h2 in this extension, the rule is respected.</p>
+      <h3><span>5.6 </span>Verify that header elements are not used for formatting</h3>
+      <p>A header element's text content can have maximum 20 words. The longest header is "Color of background".</p>
+      <h3><span>5.7 </span>Check for valid default values of INPUT, TEXTAREA, and SELECT elements</h3>
+      <p>Input elements that have a type of "text", "checkbox" or "radio" must have at least one word of text in their "value" attribute. All inputs have a default value. For example, in the options page the default values for voice setting are "US English Female" for voice, 1 for pitch, 1 for volume and 1 for rate. For color settings all checkboxes are enabled.</p>
+    </section>
+    <section id="userManual">
+      <h2>User manual</h2>
+      <h3><span>6.1 </span>Main page (popup page)</h3>
+      <p>Main page can be accessed by left clicking on the extension icon from the top-right corner of the browser</p>
+      <img src="./Scholarly HTML_files/extension_icon.png" alt="Scholarly HTML logo">
+      <p>This page contains the following elements:</p>
+      <ul>
+        <li>Play button - selected text will be played in audio format</li>
+        <li>Pause button - will pause the reading of text</li>
+        <li>Stop button - will stop the reading of text</li>
+        <li>Zoom out button - the page content will be zoomed out by 50 percentage</li>
+        <li>Zoom input - the page zoom will be set to provided value</li>
+        <li>Zoom in button - the page content will be zoomed in by 50 percentage</li>
+        <li>Change text color - will change the text color for elements selected in options page</li>
+        <li>Change background color- will change the background color for elements selected in options page</li>
+      </ul>
+      <img src="./Scholarly HTML_files/popup.png" alt="Scholarly HTML logo">
+      <p>When we click on an input for change color a modal will open in which we can select the color that will be applied.</p>
+      <img src="./Scholarly HTML_files/color_picker.png" alt="Scholarly HTML logo">
+      <h3><span>6.2 </span>Options page</h3>
+      <p>Options page can be accessed from the extension menu. To open the menu we need to right-click on the extension icon. After this we need to select Options. A new tab will be displayed.</p>
+
+      <h3><span>6.2 </span>Options page</h3>
+      <p>Options page contains two main categoryes: options for voice and options for color. When we click on one of the options a new component will pe expanded inn which we can see all the propertyes that we can change.</p>
+      <p>Voice settings are: voice type, pitch, volume and rate. We can change the values and the changes will be applied to the main page.</p>
+      <img src="./Scholarly HTML_files/voice.png" alt="Scholarly HTML logo">
+      <p>In the color settings we can select for which html elements the coloring will be applyed. We have multiple checkboxes for text and background. If we select "All elements" all the other checkboxes will become active, or will be disable, it depends of the initial value. If "All elements" is checked and we unchecked one of the propertyes, "All elements" will becoma also unchecked.</p>
+      <img src="./Scholarly HTML_files/color.png" alt="Scholarly HTML logo">
+    </section>
+<section id="biblio-references"><h2>References</h2>
+  <dl><dt id="ref-NYT">W3C/WAI</dt><dd property="schema:citation" typeof="schema:ScholarlyArticle" resource="https://www.w3.org/WAI/ER/2011/eval/">
+    <cite property="schema:name"><a href="https://www.w3.org/WAI/ER/2011/eval/">Web Accessibility Evaluation and Testing Activities</a></cite>
+  </dd>
+  <dt id="ref-HTML">World Health Organization</dt>
+  <dd property="schema:citation" typeof="schema:WebPage" resource="https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment">
+    <cite property="schema:name"><a href="https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment">Blindness and vision impairment</a></cite>.
+  </dd></dl>
+</section>
+</body>
+</html>

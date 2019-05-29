@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "Visia",
+  "description": "This extension can be use by people with visual impairments to distinguish better the content of a web page",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "logo.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab",
+   "contextMenus"
+   ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+        {
+        "matches": [
+            "http://*/*",
+            "https://*/*"
+            ],
+        "js": ["content.js"]      // pay attention to this line
+        }
+    ], 
+   "content_security_policy": "script-src https://code.responsivevoice.org/ chrome-extension://boegmhpifhojmockkipmdjbepkmakgbp/popup.js chrome-extension://clocbbnbeobmahihjemebjpfoachnjci/content.js chrome-extension://boegmhpifhojmockkipmdjbepkmakgbp/options.js 'unsafe-eval'; object-src 'self'",
+  
+  "options_page": "options.html"
+}
